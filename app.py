@@ -16,7 +16,7 @@ def set_background_image_local(image_path):
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/png;base64,{base64_image}");
+            background-image: url("data:image/jpg;base64,{base64_image}");
             background-size: contain;
             background-position: fit;
             background-repeat: repeat;
@@ -27,7 +27,7 @@ def set_background_image_local(image_path):
         unsafe_allow_html=True
     )
 
-set_background_image_local(r"12.png")
+set_background_image_local(r"img2.jpg")
 st.markdown(
     """
     <h1 style='color: black; font-family: "Arial", sans-serif; font-size: 40px; 

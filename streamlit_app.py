@@ -15,7 +15,7 @@ def add_bg_from_local(image_path):
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/png;base64,{encoded_string}");
+            background-image: url("data:image/jpg;base64,{encoded_string}");
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -25,7 +25,7 @@ def add_bg_from_local(image_path):
         unsafe_allow_html=True
     )
 
-add_bg_from_local(r"projectcncbackgroundimage.webp")
+add_bg_from_local(r"img2.jpg")
 
 
 # Load the trained LSTM model
